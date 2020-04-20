@@ -1,0 +1,15 @@
+body{
+    margin:10px;
+    background-image: url(../midia/fundo.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+div.container{
+  max-width: 300px;
+}
+
+
+
+
