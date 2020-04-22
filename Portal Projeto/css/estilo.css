@@ -18,10 +18,14 @@ a:hover{
     
 }
 
-#imagem1, #imagem2, #imagem3{
+#imagem1{
     width: 195px;
 }
+#imagem2, #imagem3{
 
+    width: 140px;
+    
+}
 footer{
     background-color: rgb(43, 42, 42);
     color: blanchedalmond;
@@ -39,7 +43,7 @@ footer{
     padding: 20px;
     margin-left: -8px;
     margin-right: -8px;
-    margin-top: 100px;
+    margin-top: 10px;
 
 }
 
@@ -124,6 +128,7 @@ body{
     inline-size: 900px;
     margin-left: 10px;
     margin-top: 20px;
+    margin-bottom: 70px;
     width: 900px;
     height: 150px;
 }
@@ -228,9 +233,16 @@ p.textI{
 @media only screen and (max-device-width: 900px){
     
     
-#imagem1, #imagem2, #imagem3{
+#imagem1{
      width: 50%;
      margin-top: 5%;
+}
+
+#imagem2, #imagem3{
+    
+     width: 40%;
+     margin-top: 5%;
+    
 }
 
     .postagem_lista_item{

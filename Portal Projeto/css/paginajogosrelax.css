@@ -37,6 +37,13 @@ div.stexto{
 }
 
 
+.fb-comments{
+  margin: 35px;
+  margin-top: 75px;
+  position: absolute;
+  background: rgba(44, 40, 40, 0.603);
+}
+
 
 #jogo1{
   max-width: 30%;
