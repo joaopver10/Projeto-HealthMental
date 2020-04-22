@@ -70,23 +70,10 @@ body{
     font-family: 'calibri', sans-serif;
 
 }
-/*corpo para a pagina do texto*/
-#btexto{
-    background-color: rgba(141, 140, 158, 0.5);
-    font-family: 'calibri', sans-serif;
-    margin-bottom: 0px;
-}
-/*seção para por o texto e imagens*/
-section.stexto{
-    background-color: rgb(141, 140, 158);
-    padding:10px;
-    width: 95%;
-    margin: 2px 0px -20px 30px;
-}
 
 
 #topo{
-    background-color: rgb(73, 70, 105);
+    background-color: rgb(75, 69, 160);
     padding: 3px;
     margin-left: -8px;
     margin-right: -7px;
@@ -121,7 +108,7 @@ section.stexto{
     width: 900px;
     height: 150px;
 }
-.postagem_lista_item2{
+.postagem_lista_item1{
     border: gray 2px solid;
     border-radius: 10px;
     inline-size: 900px;
@@ -131,7 +118,7 @@ section.stexto{
     height: 150px;
 }
 
-.postagem_lista_item3{
+.postagem_lista_item2{
     border: gray 2px solid;
     border-radius: 10px;
     inline-size: 900px;
@@ -253,14 +240,14 @@ p.textI{
         margin-left: 1%;
 
     }
-    .postagem_lista_item2{
+    .postagem_lista_item1{
         border: gray 2px solid;
         border-radius: 10px;
         inline-size: 90%;
         margin-left: 1%;
 
     }
-    .postagem_lista_item3{
+    .postagem_lista_item2{
         border: gray 2px solid;
         border-radius: 10px;
         inline-size: 90%;
@@ -281,18 +268,22 @@ p.textI{
         
     #noticia1{
 
-        margin: 5% 10% 10% 50%
+        margin: 5% 10% 10% 50%;
         box-sizing: border-box;
         font-family: Helvetica, sans-serif;
         font-size: 65%;
+       
     }
+    
     
         
     #noticia2{
-        margin: 5% 10% 10% 50%
+
+        margin: 5% 10% 10% 50%;
         box-sizing: border-box;
         font-family: Helvetica, sans-serif;
         font-size: 65%;
+       
     }
     
     

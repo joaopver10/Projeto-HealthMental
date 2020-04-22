@@ -1,0 +1,63 @@
+
+/*corpo para a pagina do texto*/
+#btexto{
+    background-color: rgb(255, 255, 255);
+    font-family: 'calibri', sans-serif;
+    margin-bottom: 0px;
+    
+}
+/*seção para por o texto e imagens*/
+h1, h2{
+    font-family: 'calibri', sans-serif;
+    font-size: 11pt;
+}
+p{
+    font-family:  sans-serif;
+    font-size: 7pt;
+}
+section{
+    border-style: dotted;
+    border-bottom-width: 1px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    
+}
+
+
+
+div.stexto{
+    background-color: rgb(141, 140, 158);
+    padding:20px;
+    width: 95%;
+    margin: 2px 0px -20px 15px; 
+    border: 1px black solid;  
+    
+    
+}
+
+
+
+#jogo1{
+  max-width: 30%;
+  margin-top: -5px;
+  
+}
+
+#jogo2{
+    width: 20%;
+    margin-top: -5px;
+ 
+}
+
+#jogo3{
+    width: 40%;
+    margin-top: -5px;
+}
+
+#jogo4{
+    width: 40%;
+    margin-top: -5px;
+
+}
+
