@@ -13,11 +13,11 @@ a:hover{
 }
 
 #botao:hover{
-    background: orangered;
-    
-    
+    background: orangered;  
 }
 
+
+/* Essa parte fica a parte das imagens e do footer*/
 #imagem1{
     width: 195px;
 }
@@ -302,7 +302,7 @@ p.textI{
     
 
 #topo{
-    background-color: rgb(73, 70, 105);
+    background-color: rgb(75, 69, 160);
     padding: 3px;
     margin-left: -8px;
     margin-right: -7px;
@@ -488,6 +488,8 @@ nav ul{
 
 
 
+/* Parte do menu */
+
 *{
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -565,6 +567,7 @@ nav ul{
 	left: auto;
 	top: 100%;
 }
+
 
 /*rede social icones*/
 
