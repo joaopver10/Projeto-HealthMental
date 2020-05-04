@@ -82,7 +82,7 @@ body{
     margin-left: -8px;
     margin-right: -7px;
     margin-top: -8px;
-   
+    box-shadow: black 4px 3px 5px;  
   }
   
   #logosite2{
@@ -307,6 +307,7 @@ p.textI{
     margin-left: -8px;
     margin-right: -7px;
     margin-top: -8px;
+    box-shadow: black 4px 3px 5px;  
    
   }
   
