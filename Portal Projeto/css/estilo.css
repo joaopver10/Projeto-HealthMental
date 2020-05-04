@@ -104,26 +104,28 @@ body{
   }
 
   .postagem_lista_item{
-    border: gray 2px solid;
     border-radius: 10px;
     inline-size: 900px;
     margin-left: 10px;
     margin-top: 10px;
     width: 900px;
     height: 150px;
+    background-color: rgba(146, 137, 137, 0.822);
+    box-shadow: rgba(0, 0, 0, 0.747) 2px 2px 4px;
 }
 .postagem_lista_item1{
-    border: gray 2px solid;
     border-radius: 10px;
     inline-size: 900px;
     margin-left: 10px;
     margin-top: 20px;
     width: 900px;
     height: 150px;
+    background-color: rgba(146, 137, 137, 0.822);
+    box-shadow: rgba(0, 0, 0, 0.747) 2px 2px 4px;
+
 }
 
 .postagem_lista_item2{
-    border: gray 2px solid;
     border-radius: 10px;
     inline-size: 900px;
     margin-left: 10px;
@@ -131,6 +133,9 @@ body{
     margin-bottom: 70px;
     width: 900px;
     height: 150px;
+    background-color: rgba(146, 137, 137, 0.822);
+    box-shadow: rgba(0, 0, 0, 0.747) 2px 2px 4px;
+    
 }
 
 #noticia{
@@ -246,24 +251,28 @@ p.textI{
 }
 
     .postagem_lista_item{
-        border: gray 2px solid;
         border-radius: 10px;
         inline-size: 90%;
         margin-left: 1%;
+        background-color: rgba(146, 137, 137, 0.822);
+        box-shadow: rgba(0, 0, 0, 0.747) 2px 2px 4px;
 
     }
     .postagem_lista_item1{
-        border: gray 2px solid;
         border-radius: 10px;
         inline-size: 90%;
         margin-left: 1%;
+        background-color: rgba(146, 137, 137, 0.822);
+        box-shadow: rgba(0, 0, 0, 0.747) 2px 2px 4px;
 
     }
     .postagem_lista_item2{
-        border: gray 2px solid;
+        
         border-radius: 10px;
         inline-size: 90%;
         margin-left: 1%;
+        background-color: rgba(146, 137, 137, 0.822);
+        box-shadow: rgba(0, 0, 0, 0.747) 2px 2px 4px;
 
     }
 
