@@ -31,8 +31,13 @@ p{
     margin-top: 10px;
 }
 
-#post2{
+#post1{
+  margin-top: 20px;
+  text-align: justify;
 
+}
+
+#post2{
     margin-top: 20px;
     text-align: justify;
 
@@ -646,7 +651,12 @@ div.stexto{
           margin-top: 10px;
       }
       
-
+      #post1{
+        margin-top: 20px;
+        text-align: justify;
+      
+      }
+    
       #post2{
       
           margin-top: 20px;
