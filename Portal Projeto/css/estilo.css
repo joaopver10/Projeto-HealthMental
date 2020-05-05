@@ -12,7 +12,7 @@ a:hover{
         cursor: pointer;
 }
 
-#botao:hover{
+button:hover{
     background: orangered;  
 }
 
@@ -178,7 +178,7 @@ body{
 }
 
 
-#botao{
+button{
     border-radius: 10px;
     margin-left: 16px;
     margin-top: 104px;
@@ -331,7 +331,7 @@ a:hover{
         cursor: pointer;
 }
 
-#botao:hover{
+button:hover{
     background: orangered;
     
     
