@@ -27,22 +27,25 @@ h2{
 p{
     font-family:  Arial, Helvetica, sans-serif;
     font-size: 6pt;
-  
+    text-align: justify;
     margin-top: 10px;
 }
 
 #post2{
 
     margin-top: 20px;
+    text-align: justify;
 
 }
 
 #post3{
     margin-top: 20px;
+    text-align: justify;
 }
 
 #post4{
     margin-top: 20px;
+    text-align: justify;
 }
 
 section{
@@ -637,30 +640,28 @@ div.stexto{
       
       }
       p{
-          font-family:  Arial, Helvetica, sans-serif;
-          font-size: 6pt;
-          text-align: left;
+          font-family: Helvetica, sans-serif;
+          font-size: 5pt;
+          text-align: justify;
           margin-top: 10px;
       }
       
-      #text{
-        position: left;
-      }
 
       #post2{
       
           margin-top: 20px;
-          
+          text-align: justify;
       
       }
       
       #post3{
           margin-top: 20px;
-          
+          text-align: justify;
       }
       
       #post4{
           margin-top: 20px;
+          text-align: justify;
       }
       
       section{

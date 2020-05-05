@@ -217,22 +217,6 @@ figure.foto-legenda img{
 
 }
 
-/*coloquei no "p" normal pra facilitar*/
-p{
-    position: relative;
-    text-align: justify;
-    text-indent: 50px;
-    font-size: 20px;
-}
-p.textI{
-    position: relative;
-    text-align: justify;
-    text-indent: 50px;
-    
-    
-}
-
-
 
 /* tudo pra carregar pra mobile*/
 @media only screen and (max-device-width: 900px){
