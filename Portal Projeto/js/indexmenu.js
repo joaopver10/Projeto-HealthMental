@@ -48,3 +48,7 @@ $(function(){
 	App.accessibleMenu();
 	App.cancelAccessibleMenu();
 });
+
+function clicktxt(){
+	window.location.href = "html/jogosRelanxantes.html"
+}
