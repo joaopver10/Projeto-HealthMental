@@ -173,8 +173,9 @@ body{
 
 #postagem{
     text-align: left;
+    font-family: 'Times New Roman', serif;
     margin-left: 10px;
-    font-size: 35px;
+    font-size: 29pt;
 }
 
 
