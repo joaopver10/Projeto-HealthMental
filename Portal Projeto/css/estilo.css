@@ -1,7 +1,4 @@
 @charset "UTF-8";
-@media only screen and (max-device-width: 900px) {
-    /* .menu { width:100%; } */
-    }
 /* Parte do section do rodapé*/
 a:link, a:visited{
         color: rgb(253, 253, 253);
@@ -14,6 +11,9 @@ a:hover{
 
 button:hover{
     background: orangered;  
+}
+*{
+    margin: auto 0;
 }
 
 
@@ -28,12 +28,8 @@ button:hover{
 }
 footer{
     background-color: rgb(43, 42, 42);
-    color: blanchedalmond;
+    color: rgb(252, 252, 252);
     padding: 20px;
-    margin-left: -9px;
-    margin-right: -9px;
-    position: absolute;
-    width: 100%;
     text-align: center;
 
 }
@@ -41,9 +37,7 @@ footer{
 .rodape{
     background-color: rgb(75, 69, 160);
     padding: 20px;
-    margin-left: -8px;
-    margin-right: -8px;
-    margin-top: 10px;
+
 
 }
 
@@ -72,24 +66,22 @@ body{
     background-color: rgb(255, 255, 255);
     color: rgb(8, 8, 8);
     font-family: 'calibri', sans-serif;
-
 }
 
 
 #topo{
     background-color: rgb(75, 69, 160);
     padding: 3px;
-    margin-left: -8px;
-    margin-right: -7px;
-    margin-top: -8px;
     box-shadow: black 4px 3px 5px;  
   }
   
   #logosite2{
     width: 150px;
-    margin-top: -190px;
-    margin-left: 475px;
+    margin: auto 0;
     position: absolute;
+    top: 3%;
+    left: 35%;
+
   }
   
   
@@ -106,9 +98,9 @@ body{
   .postagem_lista_item{
     border-radius: 10px;
     inline-size: 900px;
-    margin-left: 10px;
+    margin-left: 28%;
     margin-top: 10px;
-    width: 900px;
+    width: 600px;
     height: 150px;
     background-color: rgba(146, 137, 137, 0.822);
     box-shadow: rgba(0, 0, 0, 0.747) 2px 2px 4px;
@@ -116,9 +108,9 @@ body{
 .postagem_lista_item1{
     border-radius: 10px;
     inline-size: 900px;
-    margin-left: 10px;
+    margin-left: 28%;
     margin-top: 20px;
-    width: 900px;
+    width: 600px;
     height: 150px;
     background-color: rgba(146, 137, 137, 0.822);
     box-shadow: rgba(0, 0, 0, 0.747) 2px 2px 4px;
@@ -128,10 +120,10 @@ body{
 .postagem_lista_item2{
     border-radius: 10px;
     inline-size: 900px;
-    margin-left: 10px;
+    margin-left: 28%;
     margin-top: 20px;
     margin-bottom: 70px;
-    width: 900px;
+    width: 600px;
     height: 150px;
     background-color: rgba(146, 137, 137, 0.822);
     box-shadow: rgba(0, 0, 0, 0.747) 2px 2px 4px;
@@ -140,7 +132,7 @@ body{
 
 #noticia{
 
-    margin: 50px 55px 55px 215px;
+    margin: 50px 55px 75px 215px;
     box-sizing: border-box;
     font-family: Helvetica, sans-serif;
     font-size: 16px;
@@ -152,7 +144,7 @@ body{
 }
 #noticia1{
 
-    margin: 50px 55px 55px 215px;
+    margin: 50px 55px 55px 160px;
     box-sizing: border-box;
     font-family: Helvetica, sans-serif;
     font-size: 16px;
@@ -163,7 +155,7 @@ body{
 
 #noticia2{
 
-    margin: 50px 55px 55px 215px;
+    margin: 50px 55px 55px 160px;
     box-sizing: border-box;
     font-family: Helvetica, sans-serif;
     font-size: 16px;
@@ -173,9 +165,11 @@ body{
 
 #postagem{
     text-align: left;
-    font-family: 'Times New Roman', serif;
-    margin-left: 10px;
-    font-size: 29pt;
+    font-family: sans-serif;
+    margin-left: 43%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 27pt;
 }
 
 
@@ -306,8 +300,8 @@ figure.foto-legenda img{
   
   #logosite2{
     width: 30%;
-    margin-top: -48%;
-    margin-left: 5%;
+    left: 3%;
+    top: 6%;
     position: absolute;
   }
   
@@ -492,7 +486,8 @@ nav ul{
 
 nav ul{
 	list-style: none;
-	margin: 0;
+    margin: 0;
+    
   padding: 0;
 }
 
