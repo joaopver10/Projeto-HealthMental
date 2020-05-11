@@ -507,7 +507,7 @@ ol{margin:0;padding:0;list-style-type:none}
 
 .menu > ol:first-child > .menu-item:nth-of-type(2) > a,
 .menu > ol:first-child > .menu-item:nth-of-type(4) > a
-	{border-left:1px solid;border-right:1px solid }
+	{border-left:-3px solid;border-right:0px solid }
 
 .menu > ol:first-child > .menu-item > a:before
 	{background:#ff9900;bottom:90%;transform:rotateX(-90deg) translate3d(0,0,75px)}
