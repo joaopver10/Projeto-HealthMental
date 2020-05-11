@@ -34,6 +34,17 @@ p{
     margin-bottom: 5px;
 }
 
+footer p{
+  background-color: rgb(43, 42, 42);
+  color: rgb(252, 252, 252);
+  padding: 20px;
+  text-align: center;
+  font-size: 11pt;
+
+}
+
+
+
 #post1{
   margin-top: 20px;
   text-align: justify;
