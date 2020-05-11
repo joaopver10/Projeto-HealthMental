@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* Parte do section do rodapé*/
+/* Configuração do botão quando passa o mouse*/
 a:link, a:visited{
         color: rgb(253, 253, 253);
         text-decoration: none;
@@ -94,6 +94,8 @@ body{
       color: rgb(12, 12, 12);
       font-family: Georgia, 'Times New Roman', Times, serif;
   }
+  
+  /* parte de postagens*/
 
   .postagem_lista_item{
     border-radius: 10px;
@@ -185,7 +187,7 @@ button{
     width: 100px;
     cursor: pointer;
 }
-
+/* fim da configuração da postagem */
 
 
 
@@ -213,6 +215,9 @@ figure.foto-legenda img{
 }
 
 
+
+
+
 /* tudo pra carregar pra mobile*/
 @media only screen and (max-device-width: 900px){
     
@@ -232,7 +237,7 @@ figure.foto-legenda img{
     .postagem_lista_item{
         border-radius: 10px;
         inline-size: 90%;
-        margin-left: 1%;
+        margin-left: 5%;
         background-color: rgba(146, 137, 137, 0.822);
         box-shadow: rgba(0, 0, 0, 0.747) 2px 2px 4px;
 
@@ -240,7 +245,7 @@ figure.foto-legenda img{
     .postagem_lista_item1{
         border-radius: 10px;
         inline-size: 90%;
-        margin-left: 1%;
+        margin-left: 5%;
         background-color: rgba(146, 137, 137, 0.822);
         box-shadow: rgba(0, 0, 0, 0.747) 2px 2px 4px;
 
@@ -249,7 +254,7 @@ figure.foto-legenda img{
         
         border-radius: 10px;
         inline-size: 90%;
-        margin-left: 1%;
+        margin-left: 5%;
         background-color: rgba(146, 137, 137, 0.822);
 
     }
@@ -316,6 +321,17 @@ figure.foto-legenda img{
       font-family: Georgia, 'Times New Roman', Times, serif;
 
  }  
+
+ #postagem{
+    text-align: left;
+    font-family: sans-serif;
+    margin-left: 25%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 27pt;
+}
+
+
 /* Parte do section do rodapé*/
 a:link, a:visited{
         color: rgb(253, 253, 253);
@@ -334,7 +350,7 @@ button:hover{
 
 footer{
     background-color: rgb(43, 42, 42);
-    color: blanchedalmond;
+    color: rgb(245, 244, 243);
     padding: 4%;
     margin-left: -4%;
     margin-right: 0%;
@@ -385,7 +401,11 @@ body{
     height: 200%;
     }
 
-/*MENU PARA CELULAR */
+
+
+
+
+    /*MENU PARA CELULAR */
  
  *{
 	-webkit-box-sizing: border-box;
@@ -467,8 +487,7 @@ nav ul{
 } 
     
     
-}
-
+}   
 /* FIM DO CODIGO DE RESPONSIVIDADE ^
                                    ' */
 
@@ -556,6 +575,10 @@ nav ul{
 	left: auto;
 	top: 100%;
 }
+
+
+
+
 
 
 /*rede social icones*/

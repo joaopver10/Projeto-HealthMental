@@ -20,7 +20,7 @@ h1{
     position: relative;
     box-sizing: border-box;
     overflow: hidden;
-    margin-left: 10px;
+    margin-left: 25px;
     margin-top: 30px;
   }
 
@@ -482,8 +482,9 @@ h1{
     position: relative;
     box-sizing: border-box;
     overflow: hidden;
-    margin-left: 10px;
+    margin-left: 25px;
     margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   .profile-card-4 .popup {
@@ -636,7 +637,7 @@ h1{
     position: relative;
     box-sizing: border-box;
     overflow: hidden;
-    margin-left: 3%;
+    margin-left: 8%;
     margin-top: 25%;
   }
 
@@ -788,7 +789,7 @@ h1{
     box-sizing: border-box;
     overflow: hidden;
     margin-top: 30%;
-    margin-left: 3%;
+    margin-left: 8%;
 
   }
 
@@ -940,7 +941,7 @@ h1{
     position: relative;
     box-sizing: border-box;
     overflow: hidden;
-    margin-left: 3%;
+    margin-left: 8%;
     margin-top: 40%;
   }
 
