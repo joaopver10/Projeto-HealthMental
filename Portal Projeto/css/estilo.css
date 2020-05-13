@@ -16,6 +16,30 @@ button:hover{
     margin: auto 0;
 }
 
+iframe{
+    width: 520px;
+    height: 280px;
+}
+div#video h2{
+    margin-top: -13px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+div#video{
+    margin: auto;
+    position: absolute;
+    margin: 160px 0px 0px 720px ;
+    background-color:rgba(146, 137, 137, 0.822);
+    padding: 50px;
+    border-radius: 20px ;
+    box-shadow: rgba(0, 0, 0, 0.747) 3px 2px 4px ;
+    
+}
+
+
+
 
 /* Essa parte fica a parte das imagens e do footer*/
 #imagem1{
@@ -101,7 +125,7 @@ body{
   .postagem_lista_item{
     border-radius: 10px;
     inline-size: 900px;
-    margin-left: 28%;
+    margin-left: 2%;
     margin-top: 10px;
     width: 600px;
     height: 150px;
@@ -111,7 +135,7 @@ body{
 .postagem_lista_item1{
     border-radius: 10px;
     inline-size: 900px;
-    margin-left: 28%;
+    margin-left: 2%;
     margin-top: 20px;
     width: 600px;
     height: 150px;
@@ -123,7 +147,7 @@ body{
 .postagem_lista_item2{
     border-radius: 10px;
     inline-size: 900px;
-    margin-left: 28%;
+    margin-left: 2%;
     margin-top: 20px;
     margin-bottom: 70px;
     width: 600px;
@@ -169,7 +193,7 @@ body{
 #postagem{
     text-align: left;
     font-family: sans-serif;
-    margin-left: 43%;
+    margin-left: 3%;
     margin-top: 30px;
     margin-bottom: 50px;
     font-size: 27pt;
@@ -272,6 +296,21 @@ body{
         margin-left: 5%;
         background-color: rgba(146, 137, 137, 0.822);
 
+    }
+    iframe{
+        width: 320px;
+        height: 180px;
+    }
+
+    div#video{
+        margin: auto;
+        position: relative;
+        width: 320px;
+        margin-top: 40px ;
+        background-color:rgba(146, 137, 137, 0.822);
+        padding: 20px;
+        border-radius: 20px ;
+        
     }
 
     
