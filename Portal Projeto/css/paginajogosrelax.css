@@ -88,14 +88,6 @@ div.stexto{
 }
 
 
-.fb-comments{
-  margin: 35px;
-  margin-top: 75px;
-  position: absolute;
-  background: rgba(44, 40, 40, 0.603);
-}
-
-
 #jogo1{
   max-width: 30%;
   margin-top: -5px;
@@ -701,7 +693,7 @@ div.stexto{
           background-color: rgb(141, 140, 158);
           padding:15px;
           width: 80%;
-          margin: 20px 20px 20px 20px; 
+          margin: 20px 20px 20px 5px; 
           box-shadow: black 1px 3px 9px 2px; 
           border-radius: 2px;
           
