@@ -45,10 +45,13 @@ div#video{
 #imagem1{
     width: 195px;
 }
-#imagem2, #imagem3{
-
-    width: 33%;
+#imagem2 {
     
+    width: 33%;
+}
+#imagem3{
+    margin-top: 3%;
+    width: 33%;
 }
 footer{
     background-color: rgb(43, 42, 42);
@@ -181,7 +184,7 @@ body{
 
 #noticia2{
 
-    margin: 50px 55px 55px 160px;
+    margin: 50px 0px 0px 215px;
     box-sizing: border-box;
     font-family: Helvetica, sans-serif;
     font-size: 16px;
@@ -262,16 +265,21 @@ body{
     
 #imagem1{
      width: 50%;
-     margin-top: 5%;
+     margin-top: 3%;
 }
 
-#imagem2, #imagem3{
+#imagem2{
     
-     width: 40%;
-     margin-top: 5%;
+     width: 50%;
+     margin-top: 3%;
     
 }
+#imagem3{
 
+    width: 50%;
+    margin-top: 5%;
+}
+    
     .postagem_lista_item{
         border-radius: 10px;
         inline-size: 90%;
@@ -315,20 +323,20 @@ body{
     
     #noticia{
 
-        margin: 5% 10% 10% 50%;
+        margin: 3% 10% 10% 50%;
         box-sizing: border-box;
         font-family: Helvetica, sans-serif;
-        font-size: 65%;
+        font-size: 70%;
        
     }
     
         
     #noticia1{
 
-        margin: 5% 10% 10% 50%;
+        margin: 3% 10% 10% 50%;
         box-sizing: border-box;
         font-family: Helvetica, sans-serif;
-        font-size: 65%;
+        font-size: 70%;
        
     }
     
@@ -336,10 +344,10 @@ body{
         
     #noticia2{
 
-        margin: 5% 10% 10% 50%;
+        margin: 3% 10% 10% 50%;
         box-sizing: border-box;
         font-family: Helvetica, sans-serif;
-        font-size: 65%;
+        font-size: 70%;
        
     }
     
@@ -356,7 +364,7 @@ body{
   
   #logosite2{
     width: 30%;
-    left: 3%;
+    left: 7%;
     top: 6%;
     position: absolute;
   }
