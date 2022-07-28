@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Arial;
+}
+
+header{
+    background: #753FE0;
+
+}
+
+header nav a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header nav a:hover{
+    opacity: 0.7;
+    color:red;
+    padding: 5%;
+}
+
+
+.logo{
+    display: flex;
+    padding: 3% 0;
+    justify-content: center;
+}
+.logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 21px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui;
+    height: 7vh;
+    background: #23232e;
+    box-shadow: 0px 3px 3px black;
+    flex-wrap: wrap;
+
+}
+.menu{
+    list-style: none;
+    display: flex;
+    
+}
+
+.menu li{
+    letter-spacing: 2px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+section h1{
+    text-align: center;
+    margin: 2% 5% ;
+}
+
+
+
+.container{
+    display: flex ;
+    max-width: 100vh;
+    margin: 2% 1.5%;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.postagens{
+    display: flex ;
+    align-items: center;
+    background: #61A8FA ;
+    padding: 2vh;
+    border-radius: 5px;
+    margin: 2.5% 0;
+    box-shadow: 0px 0px 9px  rgba(74, 74, 74, 0.71);
+
+    
+    
+}
+.postagens p{
+    margin: 2%;
+}
+
+
+button{
+    width: 15vh;
+    height: 6vh;
+    background: #23232e;
+    border: none;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+    box-shadow: 1px 0px 9px rgb(70, 70, 70);
+
+}
+
+
+button:hover{
+    background: #d55f50;
+    cursor: pointer;
+}
+
+
+
+img{
+    width: 35vh;
+}
+
+footer{
+    display: flex;
+    background: #23232e;
+    height: 100px;
+    align-items: center;
+    
+}
+footer p{
+    flex: 1;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}

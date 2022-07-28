@@ -1,72 +1,81 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>HealthMental - Saúde Mental</title>
-        <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
-    </head>
-    
-    <body>
-        <header id="topo">
-            <h1 id="logo">HealthMental</h1>
-            <img id="logosite2" src="midia/insta.png" alt="Logo do site, nele contem o nome do site que é HealthMental.">
-            <nav class="menu">
-                <ol>
-                    <li class="menu-item"><a href="index.html">Inicio</a></li>
-                    <li class="menu-item"><a href="html/formulario.html">Contate-nos</a></li>
-                    <li class="menu-item"><a href="html/quem_somos.html">Sobre</a></li>
-                </ol>
-            </nav>    
-        </header>
-        <aside>
-            <div id="video">
-                <h2>Antes de ler, sabia mais sobre saude mental.</h2>
-            <iframe  src="https://www.youtube.com/embed/chlYYrisVVg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HealthMental - Saúde Mental</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <a  href="/">HealthMental</a>
+      </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="/">Inicio</a></li>
+          <li><a href="html/formulario.html">Contato</a></li>
+          <li><a href="#">Sobre</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <h1>Notícias</h1>
+      <hr/>
+      <div class="container">
+        <div class="postagens">
+          <img src="midia/post1.jpg" alt="postagem1" />
+          <p>
+            Ansiedade: Jogos que podem te ajudar.
+          </p>
+          <div class="botao">
+            <button type="button" >
+             Ler sobre
+            </button>
+           </div>
+        </div>
+        
+
+        <div class="postagens">
+            <div>
+              <img src="midia/jogando.jpg" alt="postagem2" />
             </div>
-        </aside>  
-        <p id="postagem">Postagens</p>
-            <div class="postagem_lista_item"> 
-              <section>
-                  <h2 id="noticia">Ansiedade: Jogos que podem te ajudar.</h2>
-                  <img id="imagem1" src="midia/jogando.jpg" alt="Na imagem contem uma pessoa segurando um controle de vide game" >
-                  <button type="button" onclick="clicktxt()"> Ler sobre </button>
-              </section>
-            </div> 
-            <div class="postagem_lista_item1"> 
-              <section>       
-                  <h2 id="noticia1">Aplicativos que podem ajudar em crises de <br> ansiedade. </h2>
-                  <img id="imagem2" src="midia/post2.jpg" alt="Possui pessoas mexendo no celular">
-                  <button type="button" onclick="clica()"> Ler sobre</button>
-              </section>              
-            </div>
-            <div class="postagem_lista_item2"> 
-                <section>       
-                    <h2 id="noticia2">Jogo que aborda ansiedade e depressão de uma <br> maneira artística.</h2>
-                    <img id="imagem3" src="midia/post3.gif" alt="Personagem do jogo Griss andando em um mundo preto e branco">
-                    <button type="button" onclick="clica2()" >Ler sobre</button>
-                </section>           
-            </div>
-            <div class="rodape">
-                <article>     
-                    <a href="https://www.instagram.com/healthmentalunigranrio/" target="_blank">
-                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                        width="30px" height="30px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
-                    <path id="instagram" fill="#ffffff" d="M22.107,3.415H7.893c-2.469,0-4.479,2.007-4.479,4.477v4.73v9.486c0,2.469,2.01,4.479,4.479,4.479h14.215
-                        c2.469,0,4.479-2.01,4.479-4.479v-9.486v-4.73C26.586,5.421,24.576,3.415,22.107,3.415 M23.393,6.086l0.512-0.004v0.511v3.416
-                        l-3.916,0.014l-0.012-3.928L23.393,6.086z M11.693,12.622c0.742-1.028,1.945-1.7,3.307-1.7s2.564,0.672,3.307,1.7
-                        c0.484,0.67,0.771,1.49,0.771,2.379c0,2.248-1.828,4.078-4.078,4.078c-2.248,0-4.078-1.83-4.078-4.078
-                        C10.922,14.112,11.211,13.292,11.693,12.622 M24.328,22.107c0,1.225-0.994,2.219-2.221,2.219H7.893
-                        c-1.225,0-2.219-0.994-2.219-2.219v-9.486h3.459C8.832,13.356,8.664,14.159,8.664,15c0,3.494,2.842,6.335,6.336,6.335
-                        s6.336-2.842,6.336-6.335c0-0.842-0.17-1.645-0.467-2.379h3.459V22.107z"/>
-                    </svg>
-                    </a>                  
-                    
-                </article>
-            </div>
-            <script src="js/indexmenu.js"></script>
-        <footer>
-            <p>Copyright &copy; 2020 - todos os direitos reservados para HealthMental</p>
-        </footer>
-    </body>
+            <p>
+              Aplicativos que podem ajudar em crises de
+              ansiedade.
+            </p>
+            <div class="botao">
+              <button>
+                Ler sobre
+              </button>
+             </div>
+          </div>
+
+          <div class="postagens">
+            <img src="midia/post3.gif" alt="postagem3" />
+            <p>
+              Jogo que aborda ansiedade e depressão de uma
+              maneira artística.
+            </p>
+            <div class="botao">
+              <button>
+                Ler sobre
+              </button>
+             </div>
+          </div>
+
+    </section>
+
+    <footer>
+      <p>&copy; 2020 - 2022 HealthMental</p>
+    </footer>
+  </body>
 </html>
